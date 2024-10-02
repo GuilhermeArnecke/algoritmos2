@@ -12,3 +12,17 @@ for (let a = 0; a < listona.length; a++) {
 }
 
 //O i é uma variavel global por isso coloquei como exemplo
+
+let vList = [ "banana", "maça", "pera", "laranja", "abacate"]
+
+for (let i = 0; i < 5; i++) {
+  console.log(vList[i])
+}
+
+for (const key in vList) {  //O for in pega exatamente o valor da posição (key)
+  console.log(key)
+}
+
+for (const iterator of vList) { //O for of percorre a lista que está pedindo 
+  console.log(iterator)         //e te entrega exatamente o valor que você pediu;
+}

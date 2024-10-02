@@ -1,0 +1,10 @@
+GIT STATUS: Mostra arquivos que sofreram alterações. 
+
+GIT ADD . : pega todos os arquivos que eu alterei e prepara para enviar para o 
+servidor, para ver os arquivos alterados pode olhar o GIT STATUS. 
+
+GIT COMMIT –m “Mensagem da minha preferência”: Ele vai preparar na minha máquina
+ local para poder subir ao servidor. 
+
+GIT PUSH ORIGIN MAIN: Isso vai subir os arquivos para o servidor, o Origin Main 
+é padrão, só muda caso vá trabalhar em equipe. 
